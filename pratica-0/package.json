@@ -1,0 +1,11 @@
+{
+  "name": "pratica-0",
+  "version": "1.0.0",
+  "description": "Tarefa 0 de C216",
+  "main": "index.js",
+  "scripts": {
+    "test": "Não há testes configurados"
+  },
+  "author": "Jônathan 1668",
+  "license": "ISC"
+}
