@@ -1,0 +1,270 @@
+{
+	"id": "9c8d1bcb-24e4-4440-9854-402cefce62d6",
+	"name": "C216-L1-PRATICA-3",
+	"timestamp": "2024-04-06T20:06:14.711Z",
+	"collection_id": "33498430-85cbca76-7cfd-43e8-9470-bc5b194c5df3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-06T20:06:13.397Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "18dc4e1b-ee88-4320-a979-501dc502e0f3",
+			"name": "CREATE",
+			"url": "http://localhost:5000/api/v1/professor/inserir",
+			"time": 94,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "026b6b08-75ee-4730-b41a-c3ccb1c4c382",
+			"name": "CREATE ONE MORE",
+			"url": "http://localhost:5000/api/v1/professor/inserir",
+			"time": 7,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "eac853fc-3107-4dd3-bc7e-4fb8d3923cd2",
+			"name": "READ",
+			"url": "http://localhost:5000/api/v1/professor/listar",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "117df4b3-8c58-4f21-9b3b-87f616b79a3b",
+			"name": "UPDATE",
+			"url": "http://localhost:5000/api/v1/professor/atualizar",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d8f62567-5d0b-48d7-9668-fe85d56104f4",
+			"name": "READ UPDATE",
+			"url": "http://localhost:5000/api/v1/professor/listar",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7f247607-9c09-424a-9f22-3acb69d8be63",
+			"name": "DELETE",
+			"url": "http://localhost:5000/api/v1/professor/excluir",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d71f8f10-f15b-409b-87f7-0854c8dbe2ce",
+			"name": "READ END",
+			"url": "http://localhost:5000/api/v1/professor/listar",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8636691c-8706-41d1-9697-f82995d1da70",
+			"name": "DELETE END",
+			"url": "http://localhost:5000/api/v1/professor/excluir",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 133,
+	"collection": {
+		"requests": [
+			{
+				"id": "18dc4e1b-ee88-4320-a979-501dc502e0f3",
+				"method": "POST"
+			},
+			{
+				"id": "026b6b08-75ee-4730-b41a-c3ccb1c4c382",
+				"method": "POST"
+			},
+			{
+				"id": "eac853fc-3107-4dd3-bc7e-4fb8d3923cd2",
+				"method": "GET"
+			},
+			{
+				"id": "117df4b3-8c58-4f21-9b3b-87f616b79a3b",
+				"method": "POST"
+			},
+			{
+				"id": "d8f62567-5d0b-48d7-9668-fe85d56104f4",
+				"method": "GET"
+			},
+			{
+				"id": "7f247607-9c09-424a-9f22-3acb69d8be63",
+				"method": "POST"
+			},
+			{
+				"id": "d71f8f10-f15b-409b-87f7-0854c8dbe2ce",
+				"method": "GET"
+			},
+			{
+				"id": "8636691c-8706-41d1-9697-f82995d1da70",
+				"method": "POST"
+			}
+		]
+	}
+}
